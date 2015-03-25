@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgrnd"
+     >
+
+    <TextView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tap The Button Below As Quickly As Possible"
+        android:textSize="35dp" 
+        android:id="@+id/tvDisplay"
+        />
+    <TextView
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:textSize="35dp" 
+        android:id="@+id/tvDisplay"
+        />
+      
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:text="Start"
+        android:textSize="20dp"
+        android:id="@+id/badd"
+        
+        />
+       
+    
+</LinearLayout>
